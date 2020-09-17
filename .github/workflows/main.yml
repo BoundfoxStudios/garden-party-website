@@ -9,6 +9,9 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.5.8
         with:
