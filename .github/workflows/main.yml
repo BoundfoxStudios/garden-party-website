@@ -19,3 +19,4 @@ jobs:
           BRANCH: gh-pages
           FOLDER: src
           CLEAN: true
+          CLEAN_EXCLUDE: '["CNAME"]'
